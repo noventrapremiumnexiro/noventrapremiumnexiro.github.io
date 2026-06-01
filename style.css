@@ -1,114 +1,59 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background: #0f0f0f;
     color: white;
-}
-
-/* HEADER */
-header {
     text-align: center;
-    padding: 80px 20px;
-    background: linear-gradient(135deg, #111, #222);
 }
 
-.logo {
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 5px;
-}
-
-/* IMAGINE COMPANIE (MAI MICĂ) */
-.company-img {
-    width: 110px;
-    height: 110px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin: 15px auto;
-    display: block;
-    border: 3px solid white;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
-    background: white;
-    color: black;
-    text-decoration: none;
-    border-radius: 6px;
-}
-
-/* NAV */
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+    background: #111;
     padding: 15px;
-    background: #1a1a1a;
-    position: sticky;
-    top: 0;
 }
 
 nav a {
     color: white;
+    margin: 10px;
     text-decoration: none;
 }
 
-/* HERO */
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-    background: #111;
+header {
+    padding: 50px;
+    background: #222;
 }
 
-/* SECTIONS */
+.company-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: 15px;
+    border: 3px solid white;
+}
+
 section {
-    padding: 60px 20px;
-    text-align: center;
+    padding: 40px;
 }
 
-/* LIST */
 ul {
     list-style: none;
     padding: 0;
 }
 
-ul li {
-    padding: 8px 0;
-}
-
-/* FORM */
 form {
-    max-width: 500px;
-    margin: auto;
     display: flex;
     flex-direction: column;
+    max-width: 400px;
+    margin: auto;
     gap: 10px;
 }
 
 input, textarea {
-    padding: 12px;
-    border: none;
-    border-radius: 6px;
+    padding: 10px;
 }
 
 button {
-    padding: 12px;
+    padding: 10px;
     background: white;
-    color: black;
     border: none;
     cursor: pointer;
-    border-radius: 6px;
-}
-
-button:hover {
-    background: #ddd;
-}
-
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #111;
 }
