@@ -18,12 +18,13 @@ header {
     letter-spacing: 5px;
 }
 
+/* IMAGINE COMPANIE (MAI MICĂ) */
 .company-img {
-    width: 160px;
-    height: 160px;
+    width: 110px;
+    height: 110px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 20px auto;
+    margin: 15px auto;
     display: block;
     border: 3px solid white;
 }
@@ -67,18 +68,14 @@ section {
     text-align: center;
 }
 
-/* GRID */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 15px;
-    margin-top: 20px;
+/* LIST */
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-.card {
-    background: #1f1f1f;
-    padding: 20px;
-    border-radius: 10px;
+ul li {
+    padding: 8px 0;
 }
 
 /* FORM */
